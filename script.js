@@ -1,5 +1,5 @@
 function connectWebSocket() {
-  const socket = new WebSocket("ws://localhost:8080/chat");
+  const socket = new WebSocket("wss://answerai-backend.onrender.com/chat");
 
   socket.onopen = function () {
     console.log("✅ WebSocket connection established.");
